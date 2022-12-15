@@ -1,0 +1,52 @@
+.menuleft {
+  ul {
+    padding: 0;
+    margin: 0;
+    a {
+      padding: 10px 10px;
+      display: block;
+      font-size: 14px;
+      color: $blackColor;
+      &:hover {
+        text-decoration: none;
+        color: $primaryColor;
+      }
+    }
+    li {
+      border-bottom: 1px dotted #e5e5e5;
+    }
+  }
+  & > ul > li {
+    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    > a {
+      font-size: 16px;
+      font-weight: bold;
+      background: #f6f7f8;
+    }
+    > ul a {
+      position: relative;
+      padding-left: 25px;
+      &::before {
+        position: absolute;
+        content: "\f13";
+        width: 4px;
+        height: 4px;
+        top: 10px;
+        left: 10px;
+      }
+      &:hover {
+        &::after {
+          position: absolute;
+          top: 0px;
+          bottom: 0px;
+          right: 0px;
+          content: "";
+          width: 3px;
+          background: $primaryColor;
+        }
+      }
+    }
+  }
+}

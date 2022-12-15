@@ -1,7 +1,23 @@
-import './App.css';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Home from './pages/home/Home';
+import NotFound from './pages/notFound/NotFound';
+import Post from './pages/posts/Post';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/posts' element={<Post />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+      <Footer />
+    </>
+  );
 }
 
 export default App;

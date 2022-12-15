@@ -1,0 +1,131 @@
+.news {
+  padding: 20px 0px;
+  position: relative;
+  .container {
+    border-top: 4px solid $primaryColor;
+    padding-top: 60px;
+  }
+  &-head {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: $primaryColor;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  &-heading {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 15px;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      background: $primaryColor;
+      left: 5%;
+      right: 5%;
+      height: 2px;
+    }
+  }
+  &-box {
+    .row {
+      margin: 0 15px !important;
+      &::before {
+        content: " ";
+        display: table;
+      }
+      &::after {
+        clear: both;
+      }
+      .item {
+        margin-bottom: 20px;
+        a {
+          color: $blackColor;
+        }
+      }
+    }
+    .title {
+      font-weight: bold;
+      line-height: 20px;
+      // -webkit-line-clamp: 3;
+      // -webkit-box-orient: vertical;
+      overflow: hidden;
+      height: 60px;
+      text-overflow: ellipsis;
+      font-size: 15px;
+      text-align: justify;
+    }
+  }
+  &-image {
+    img {
+      width: 180px;
+      // min-width: 180px;
+      float: left;
+      background-size: cover;
+      background-position: center;
+      // display: inline-block;
+      margin-right: 10px;
+      vertical-align: middle;
+      border-style: none;
+    }
+  }
+}
+.second-title {
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    height: 6px;
+    right: 0px;
+    left: 0px;
+    background: #ebebeb;
+  }
+  display: block;
+  position: relative;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: $primaryColor;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.text {
+  display: inline-block;
+  background: #fff;
+  padding-right: 5px;
+  position: relative;
+}
+.customersay {
+  display: flex;
+  margin-bottom: 20px;
+  img {
+    height: auto;
+    max-width: 150px;
+    // border-radius: 20px;
+    // box-shadow: 0px 14px 24px rgba(0, 0, 0, 0.5);
+  }
+  h5 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 15px;
+    text-align: justify;
+    // overflow: hidden;
+  }
+}
+// .owl-carousel {
+//   .item {
+//     // width: 10px;
+//     img {
+//       width: 80px;
+//       float: left;
+//       background-size: cover;
+//       background-position: center;
+//       margin-right: 10px;
+//       vertical-align: middle;
+//       border-style: none;
+//     }
+//   }
+//   .mess {
+//     text-align: justify;
+//     line-height: 20px;
+//   }
+// }

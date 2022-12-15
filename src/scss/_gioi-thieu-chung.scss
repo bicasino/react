@@ -1,0 +1,14 @@
+.gioi-thieu-chung {
+  .title-news {
+    color: $primaryColor;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 10px;
+  }
+  .article {
+    margin-bottom: 40px;
+  }
+}

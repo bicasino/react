@@ -1,0 +1,47 @@
+.sumenhtamnhin {
+  .title-news {
+    color: $primaryColor;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 10px;
+  }
+  .article {
+    margin-bottom: 40px;
+  }
+  .list-leadership {
+    text-align: center;
+    .item {
+      padding: 15px;
+      display: inline-block;
+    }
+    .avatar {
+      img {
+        width: 180px;
+        height: 180px;
+        background-size: cover;
+        margin: auto;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        background-position: center;
+        transition: all 0.8s ease;
+        // -webkit-filter: grayscale(100%);
+        /* Safari 6.0 - 9.0 */
+        // filter: grayscale(100%);
+      }
+      &:hover {
+        transition: all 0.8s ease;
+        transform: scale(1.2);
+        // -webkit-filter: grayscale(0);
+        // filter: none;
+      }
+    }
+    .name {
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+  }
+}

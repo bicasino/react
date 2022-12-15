@@ -1,0 +1,25 @@
+#myBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 25px;
+  right: 15px;
+  background-color: rgba($color: #6e6e6e, $alpha: 0.8);
+  zoom: 1;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  transform: translate(0px, 10px);
+  transition: all 0.5s ease;
+  border: none;
+  outline: none;
+  .fa {
+    line-height: 40px;
+    font-size: 18px;
+  }
+  &:hover {
+    transform: scaleX(100%);
+    zoom: 1;
+  }
+}

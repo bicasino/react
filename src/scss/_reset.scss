@@ -1,0 +1,34 @@
+$primaryColor: #fdb813;
+$whiteColor: white;
+$blackColor: black;
+$fontText: "Open Sans", sans-serif;
+$fontPrimary: "Roboto", sans-serif;
+
+@mixin button {
+  background: $primaryColor;
+  color: #fff;
+  display: inline-block;
+  padding: 7px 20px;
+}
+html {
+  scroll-behavior: smooth;
+  // overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  // overflow-x: hidden;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0px;
+  position: relative;
+}
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
