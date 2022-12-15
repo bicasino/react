@@ -1,0 +1,81 @@
+.project {
+  &::before {
+    content: "";
+    position: absolute;
+    background: $primaryColor;
+    left: 15%;
+    right: 15%;
+    height: 5px;
+  }
+  &-head {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    font-family: $fontPrimary;
+    color: $primaryColor;
+    font-weight: 500;
+    margin: 30px 0;
+  }
+  &-heading {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      background: $primaryColor;
+      left: 5%;
+      right: 5%;
+      height: 2px;
+    }
+  }
+  &-item {
+    margin-bottom: 20px;
+    img {
+      object-fit: scale-down;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 10%;
+    }
+    a {
+      color: $primaryColor;
+    }
+    h3 {
+      text-transform: uppercase;
+      color: $primaryColor;
+      font-size: 16px;
+      height: 40px;
+      margin-bottom: 5px;
+      line-height: 20px;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      & a:hover {
+        text-decoration: none;
+      }
+    }
+    p {
+      line-height: 20px;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      height: 60px;
+      text-overflow: ellipsis;
+    }
+    .actions {
+      margin-top: 15px;
+      text-align: right;
+      a {
+        @include button;
+        text-decoration: none;
+        &:hover {
+          background-color: orange;
+        }
+      }
+    }
+  }
+}

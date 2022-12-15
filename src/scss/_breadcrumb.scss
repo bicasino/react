@@ -1,0 +1,19 @@
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: whitesmoke !important;
+  border-radius: 4px;
+  > li {
+    display: inline-block;
+    a {
+        color: $blackColor;
+        margin: 0 10px;
+        font-size: 14px;
+        &:hover {
+          text-decoration: none;
+          color: $primaryColor;
+        }
+    }
+  }
+}

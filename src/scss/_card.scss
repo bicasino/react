@@ -1,0 +1,68 @@
+.card {
+  flex-direction: row !important;
+  border: none !important;
+  border-radius: none !important;
+  margin-bottom: 30px;
+  &-item {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 20px 15px;
+    margin-right: 20px;
+    text-align: left;
+    background-color: white;
+    color: black;
+    P {
+      font-size: 12px;
+      //   margin-left: 15px;
+      color: #341f1b;
+    }
+
+    h3 {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      margin-top: 15px;
+      //   margin-left: 15px;
+      font-weight: 900;
+      text-align: left;
+      font-size: 16px;
+      a {
+        color: black;
+      }
+    }
+
+    hr {
+      background: rgba(0, 0, 0, 0.85);
+      //   margin-left: 15pt;
+      height: 2px;
+      margin-top: 0rem;
+      margin-bottom: 0.1rem;
+    }
+    .button {
+      color: #0c0807;
+      border: 2px solid #341f1b;
+      display: inline-block;
+      padding: 12px 20px;
+      font-size: 20px;
+      background: #f4f4ee;
+      text-align: center;
+      font-weight: 500;
+      line-height: 20px;
+      border-radius: 0px;
+      letter-spacing: 0.3px;
+      text-decoration: none;
+      &:hover {
+        background-color: $primaryColor;
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .card {
+    flex-direction:column !important;
+    &-item {
+      margin-bottom: 30px;
+    }
+  }
+}
