@@ -46,7 +46,8 @@ const Header = () => {
               <Link to='/posts'>Tin tức</Link>
             </li>
             <li>
-              <a href='/web/co-hoi-nghe-nghiep.html'>Cơ hội nghề nghiệp</a>
+              <Link to='/recuitment'>Cơ hội nghề nghiệp</Link>
+              {/* <a href='/web/co-hoi-nghe-nghiep.html'>Cơ hội nghề nghiệp</a> */}
             </li>
             <li className='header-dropdown'>
               <a href=''>Liên hệ hỏi đáp</a>

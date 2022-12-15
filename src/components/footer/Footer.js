@@ -131,6 +131,7 @@ const Footer = () => {
               src={'/assets/images/logo_white.png'}
               alt=''
               style={{ height: '30px' }}
+              // style={{backgroundColor:"#111"}}
             />
           </span>
         </div>

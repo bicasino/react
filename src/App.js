@@ -5,6 +5,8 @@ import Header from './components/header/Header';
 import Home from './pages/home/Home';
 import NotFound from './pages/notFound/NotFound';
 import Post from './pages/posts/Post';
+import Recuitment from './pages/recuitment/Recuitment';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/posts' element={<Post />} />
+        <Route path='/recuitment' element={<Recuitment />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
