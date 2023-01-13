@@ -38,6 +38,7 @@
         clear: both;
       }
       .item {
+        width: 100%;
         margin-bottom: 20px;
         a {
           color: $blackColor;
@@ -49,8 +50,8 @@
       line-height: 20px;
       // -webkit-line-clamp: 3;
       // -webkit-box-orient: vertical;
-      overflow: hidden;
-      height: 60px;
+      // overflow: hidden;
+      // height: 60px;
       text-overflow: ellipsis;
       font-size: 15px;
       text-align: justify;
@@ -58,7 +59,7 @@
   }
   &-image {
     img {
-      width: 180px;
+      width: 150px;
       // min-width: 180px;
       float: left;
       background-size: cover;
@@ -67,6 +68,14 @@
       margin-right: 10px;
       vertical-align: middle;
       border-style: none;
+    }
+  }
+  &-btn {
+    &-prev {
+      margin-left: 350px !important;
+    }
+    &-next {
+      margin-left: 400px;
     }
   }
 }
@@ -111,21 +120,3 @@
     // overflow: hidden;
   }
 }
-// .owl-carousel {
-//   .item {
-//     // width: 10px;
-//     img {
-//       width: 80px;
-//       float: left;
-//       background-size: cover;
-//       background-position: center;
-//       margin-right: 10px;
-//       vertical-align: middle;
-//       border-style: none;
-//     }
-//   }
-//   .mess {
-//     text-align: justify;
-//     line-height: 20px;
-//   }
-// }

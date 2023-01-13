@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Giải pháp Chính phủ điện tử",
+    "title": "Vietnam Post nghiên cứu, phát triển các giải pháp dành cho Chính phủ điện tử, chính quyền điện tử các cấp",
+    "thumbnail": "",
+    "dateCreated": "2020-08-03T15:28:00.16",
+    "dateModified": null,
+    "alias": "giai phap chinh phu dien tu"
+  },
+  {
+    "id": 2,
+    "name": "Giải pháp doanh nghiệp",
+    "title": "Vietnam Post cung cấp các giải pháp hỗ trợ các doanh nghiệp vừa và nhỏ hiện đại hoá quản trị, nâng cao năng suất lao động, hiệu quả kinh doanh",
+    "thumbnail": "",
+    "dateCreated": "2020-08-03T15:29:09.34",
+    "dateModified": null,
+    "alias": "giai phap doanh nghiep"
+  },
+  {
+    "id": 3,
+    "name": "Giải pháp Đô thị thông minh",
+    "title": "Vietnam Post cung cấp bộ các sản phẩm, giải pháp phần cứng và phần mềm để triển khai mô hình đô thị thông minh",
+    "thumbnail": "",
+    "dateCreated": "2020-08-03T15:29:46.5033333",
+    "dateModified": null,
+    "alias": "giai phap do thi thong minh"
+  }
+]

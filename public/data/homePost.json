@@ -1,0 +1,60 @@
+{
+"new_data":[
+  {
+    "id": 320,
+    "menuId": 3,
+    "categoryId": 4,
+    "name": "\uD83C\uDF89Vietnam Post hiện diện trong TOP 10 nơi làm việc tốt nhất 2022 ngành Logistics\uD83C\uDF89",
+    "title": "",
+    "image": "/assets/tintuc_img/news1.jpg",
+    "author": "- Nguồn: vnpost.vn",
+    "iframeVideo": "",
+    "iframeAudio": "",
+    "renderForm": 0,
+    "dateCreated": "2022-12-16T14:38:17.0779504",
+    "dateModified": null
+  },
+  {
+    "id": 319,
+    "menuId": 3,
+    "categoryId": 4,
+    "name": "Vietnam Post 5 năm liền nằm trong top 10 nhãn hiệu nổi tiếng",
+    "title": "",
+    "image": "/assets/tintuc_img/news1.jpg",
+    "author": "Nguồn: vnpost.vn",
+    "iframeVideo": "",
+    "iframeAudio": "",
+    "renderForm": 0,
+    "dateCreated": "2022-12-12T08:17:05.2031718",
+    "dateModified": null
+  },
+  {
+    "id": 318,
+    "menuId": 3,
+    "categoryId": 4,
+    "name": "\uD83E\uDD1D ASEAN POST 28: Thông qua nhiều vấn đề bưu chính quan trọng trong khu vực",
+    "title": "",
+    "image": "/assets/tintuc_img/news1.jpg",
+    "author": "- Nguồn: vnpost.vn",
+    "iframeVideo": "",
+    "iframeAudio": "",
+    "renderForm": 0,
+    "dateCreated": "2022-12-09T14:46:05.2580486",
+    "dateModified": null
+  },
+  {
+    "id": 317,
+    "menuId": 3,
+    "categoryId": 5,
+    "name": "\uD83D\uDCA5“Hệ thống đào tạo trực tuyến E-learning”",
+    "title": "",
+    "image": "/assets/tintuc_img/news1.jpg",
+    "author": "Hoàng Nữ Tú Trinh",
+    "iframeVideo": "",
+    "iframeAudio": "",
+    "renderForm": 0,
+    "dateCreated": "2022-12-08T08:58:31.3441865",
+    "dateModified": null
+  }
+]
+}

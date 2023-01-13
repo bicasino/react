@@ -1,0 +1,30 @@
+{
+  "data": [
+  {
+    "id": 6,
+    "name": "Sàn thương mại điện tử postmart",
+    "description": "POSTMART là sàn giao dịch thương mại điện tử được sáng lập bởi Tổng Công ty Bưu Điện Việt Nam (VNPost) và vận hành bởi Công ty Phát hành báo chí TW.",
+    "thumbnail": "",
+    "viewCount": 84,
+    "dateCreated": "2020-08-03T17:19:48.41",
+    "dateModified": null
+  },
+  {
+    "id": 4,
+    "name": "Hệ sinh thái Bưu điện",
+    "description": "Ngày 05/11/2019 tại Hà Nội, Tổng công ty Bưu điện Việt Nam, Văn phòng thường trực đề án “Phát triển Hệ tri thức Việt số hoá” và Công ty TNHH IOTLink đã thống nhất ký thoả thuận hợp tác về việc triển khai hoạt động xây dựng “Nền tảng dữ liệu bản đồ số Việt Nam” thuộc đề án “Phát triển Hệ tri thức Việt số hoá”.",
+    "thumbnail": "",
+    "viewCount": 75,
+    "dateCreated": "2020-08-03T17:17:34.2133333",
+    "dateModified": null
+  },
+  {
+    "id": 3,
+    "name": "Bản đồ số VMAP",
+    "description": "Ngày 05/11/2019 tại Hà Nội, Tổng công ty Bưu điện Việt Nam, Văn phòng thường trực đề án “Phát triển Hệ tri thức Việt số hoá” và Công ty TNHH IOTLink đã thống nhất ký thoả thuận hợp tác về việc triển khai hoạt động xây dựng “Nền tảng dữ liệu bản đồ số Việt Nam” thuộc đề án “Phát triển Hệ tri thức Việt số hoá”.",
+    "thumbnail": "",
+    "viewCount": 72,
+    "dateCreated": "2020-08-03T17:16:50.29",
+    "dateModified": null
+  }
+]}
